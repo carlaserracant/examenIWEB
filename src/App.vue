@@ -22,6 +22,7 @@ export default{
     <nav>
       <router-link to="/"> Inicio </router-link>
       <router-link v-if="token" to="/crearConFoto"> Crear Anuncios </router-link>
+      <router-link v-if="token" to="/verListaObjetos1"> Ver Objetos </router-link>
     </nav>
 
     <div class="logo">
