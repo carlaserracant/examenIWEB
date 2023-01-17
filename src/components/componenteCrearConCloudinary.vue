@@ -32,7 +32,7 @@ export default {
                 "vendedor" : nombreSinCorreo
             };
 
-            axios.post("http://localhost:8003/objetos1", objeto).then((result) => {
+            axios.post("https://wqi17i.deta.dev/appObjeto1/objetos1", objeto).then((result) => {
             this.id = result.data;
             });
 
