@@ -25,7 +25,7 @@ const router = createRouter({
     },
 
     {
-      path: 'verListaObjetos1',
+      path: '/verListaObjetos1',
       name: 'verListaObjetos1',
       component: verListaObjetos1
     }
