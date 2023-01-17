@@ -1,0 +1,140 @@
+
+.tabla-Grande{   
+    width: 90%;
+    border-collapse: collapse;
+    margin: 2% 5% 2% 5%;
+    align-self: center;
+  }
+  
+.celda-Anuncio{
+  width: 33%;
+  align-content: center;
+}
+  
+.bold-text{
+  font-weight: bold;
+}
+  
+.panel-Reserva{
+  width: 50%;
+  height: 90%;
+  margin: 0 25% 0 25%;
+  background-color: #73503C;
+  text-align: center;
+}
+  
+.tabla-Info{
+  width: 90%;
+  border-collapse: collapse;
+  margin: 2% 5% 5% 5%;
+  align-self: center;
+  text-align: left;
+}
+  
+.mapa{
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    align-items: center;
+}
+  
+  .botonPersonalizado{
+      width: 100px;
+      height: 15px;
+      line-height: 5px;
+      padding: 20px;
+      font-size: 15px;
+      color: white;
+      background-color: #735F58;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      text-align: center;
+      transition: background-color 0.5s ease-out 100ms;
+  }
+  
+  .botonPersonalizado:hover{
+    background-color: #443834;
+  }
+  
+  .text-reserva{
+    color:white;
+    font-family: sans-serif;
+    padding-top: 20%;
+  }
+  
+  .div-padding{
+    padding-top: 5%;
+  }
+  .huespedes-box{
+    width: 3em;
+    text-align: center;
+  }
+  
+  label.comentario{
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .comentarioInput{
+    width: 60%;
+    height: 100px;
+  }
+  
+  .botonPersonalizadoEnviarComentario {
+      margin-left: 51%;
+      width: 100px;
+      height: 10px;
+      line-height: 5px;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 15px;
+      font-display:inherit;
+      color: white;
+      background-color: #735F58;
+      border-radius: 10px;
+      text-align: center;
+      transition: padding 0.5s ease-out 100ms;
+  }
+  
+  #escribirComentario{
+    width: 600px;
+    height: 100px;
+    text-align:justify;
+  }
+  
+  .botonPersonalizadoEnviarComentario:hover{
+      padding: 15px;
+      color: white;
+      background-color: #735F58;
+  }
+  
+
+  .fila-comentario {
+    padding: 10px 20px 10px;
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .celda-Nombre{
+    width: 30%;
+    text-align: left;  
+  }
+  
+  .celda-Texto{
+    width: 70%;
+    text-align: left;
+  }
+  
+  .recuadro-nombre{
+    background-color: #0D0D0C;
+    color: white;
+    padding: 10px 0px 10px 5%;
+    border-radius: 15px 50px;
+  }
+  
+  .recuadro-texto{
+    text-align: left;
+    color: white;
+    background-color: #735F58;
+    padding: 10px 0px 10px 5%;
+    border-radius: 15px 50px;
+  }
+  
