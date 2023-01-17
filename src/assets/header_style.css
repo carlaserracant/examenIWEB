@@ -1,0 +1,54 @@
+header{
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    background-color: #F2F1DF;
+    align-items: center;
+    padding: 10px;
+
+    background: #0D0D0C;
+	color: white;
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+  
+a{
+    text-decoration: none;
+    color: white;
+}
+  
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-nombre{
+    color:white;
+    font-family: Helvetica;
+}
+  
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+  
+
+
+nav{
+    padding-right: 20px;
+}
+  
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+  
+nav a:hover{
+    color:#73503C;
+}
+
