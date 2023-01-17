@@ -3,6 +3,8 @@ import home from '../components/componenteHome.vue'
 import crearSinFoto from '../components/componenteCrearSinCloudinary.vue' 
 import crearConFoto from '../components/componenteCrearConCloudinary.vue'
 import verListaObjetos1 from '../components/componenteListaObjetos1.vue'
+import verObjeto1 from '../components/componenteVerObjeto1.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -28,6 +30,12 @@ const router = createRouter({
       path: '/verListaObjetos1',
       name: 'verListaObjetos1',
       component: verListaObjetos1
+    },
+
+    {
+      path: '/VerObjeto1/:id',
+      name: 'VerObjeto1',
+      component: verObjeto1
     }
   ]
 })

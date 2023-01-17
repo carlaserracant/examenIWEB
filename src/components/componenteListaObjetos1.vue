@@ -58,6 +58,7 @@ export default {
 
           <td class="celda-text" >{{vivienda.capacidad}}</td>
 
+          <td class="celda-button" ><router-link :to="{ name: 'VerObjeto1', params: { id: vivienda._id  }}" ><a class="boton_personalizado" href="">Ver objeto1</a></router-link></td>
         </tr>
       </table>
 
